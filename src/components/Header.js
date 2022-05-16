@@ -18,24 +18,24 @@ const Header = () => {
           <Fade bottom cascade>
             <div className="heading-wrapper">
               <h1>
-               Creating human centered
-                {/* {data.headerTagline[0]
+               {/* Creating human centered */}
+                {data.headerTagline[0]
                   ? data.headerTagline[0]
-                  : "CReating Human Centered"} */}
+                  : "CReating Human Centered"}
               </h1>
               <h1>
                 {" "}
-                technological 
-                {/* {data.headerTagline[1]
+                {/* technological  */}
+                {data.headerTagline[1]
                   ? data.headerTagline[1]
-                  : "technological innovations"} */}
+                  : "technological innovations"}
               </h1>
               <h1>
                 {" "}
-                innovations and interventions
-                {/* {data.headerTagline[2]
+                {/* innovations and interventions */}
+                {data.headerTagline[2]
                   ? data.headerTagline[2]
-                  : "and interventions"} */}
+                  : "and interventions"}
               </h1>
             </div>
           </Fade>
